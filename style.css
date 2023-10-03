@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+#container{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+#container .child1{
+    background-image: url('./image-product-desktop.jpg') ;
+    background-size:cover;
+    width: 320px;
+    height: 480px;
+    border-radius: 12px 0 0 12px;
+}
+#container .child2{
+    display: flex;
+    width: 270px;
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    border-radius:0 12px 12px 0;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+#container .child2 p{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    line-height: 1.70rem;
+    word-spacing: 4px;
+}
+#container .child2 .space-letter{
+    letter-spacing: 5px;
+}
+#container .child2 h1{
+    margin: 0 ;
+    font-family: 'Fraunces', serif;
+}
+#container .child2 .inside{
+    display: flex;
+    align-items: center;
+}
+.child2 .inside h3{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    margin-right: 25px;
+}
+.child2 .inside p{
+    text-decoration: line-through;
+}
+.child2 a{
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    width: 212px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.child2 a:hover{
+    background-color: hsl(158, 53%, 19%);
+}
+.child2 svg{
+    margin-right: 12px;
+}
